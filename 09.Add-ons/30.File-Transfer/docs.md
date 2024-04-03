@@ -11,7 +11,7 @@ files on and off any accepted device.
 
 From the caller's perspective, File Transfer offers a simple HTTP API to `GET`
 and `PUT` files. On a device `mender-connect` handles requests from the backend
-and provides data to reply to the HTTP calls. The implementation does not relay
+and provides data to reply to the HTTP calls. The implementation does not rely
 on any third-party software installed on a device, and in that sense has no relation
 to FTP or SFTP. Although feature-wise it provides similar functionalities.
 
